@@ -1,0 +1,110 @@
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Center of the Earth</title>
+    <!--CSS File-->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href='https://fonts.googleapis.com/css?family=Abril+Fatface' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <!--Navigation-->
+    <!--<div class="row">
+        <div class="col-xs-12 col-s-12 col-md-12 col-lg-12">
+
+          <ul id="myMenu">
+            <li data-menuanchor="Foundation" class="active"><a href="#Foundation">Foundation</a></li>
+            <li data-menuanchor="Preparation"><a href="#Preparation">Preparation</a></li>
+            <li data-menuanchor="Execution"><a href="#Execution">Execution</a></li>
+          </ul>
+
+      </div>
+    </div>-->
+
+    <div id="fullpage">
+        <div class="section" id="section1" data-anchor="Home"></div>
+        <div class="section" id="section2" data-anchor="Crust">
+              <div class="slide" id="slide1"></div>
+              <div class="slide" id="slide2"></div>
+              <div class="slide" id="slide3"></div>
+              <div class="slide" id="slide4"></div>
+        </div>
+        <div class="section" id="section3" data-anchor="Mantle">Some section</div>
+        <div class="section" id="section4" data-anchor="Outer Core">Some section</div>
+        <div class="section" id="section5" data-anchor="Inner Core">Some section</div>
+
+    </div>
+
+
+
+
+
+
+
+    <!--jQuery-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <!--Responsive Slider Plug-in-->
+    <script type="text/javascript" src="js/jquery.fullPage.min.js"></script>
+    <!--Bootstrap js-->
+     <script src="js/bootstrap.min.js"></script>
+
+    <script>
+
+    $(document).ready(function() {
+  $('#fullpage').fullpage({
+    //Navigation
+      menu: "#myMenu",
+      lockAnchors: false,
+      anchors:['Home','Crust', 'Mantle', 'Outer Core', 'Inner Core'],
+      navigation: false,
+      navigationPosition: 'right',
+      showActiveTooltip: false,
+      slidesNavigation: true,
+      slidesNavPosition: 'bottom',
+
+      //Scrolling
+        css3: true,
+        scrollingSpeed: 700,
+        autoScrolling: true,
+        fitToSection: true,
+        fitToSectionDelay: 1000,
+        scrollBar: false,
+        easing: 'easeInOutCubic',
+        easingcss3: 'ease',
+        loopBottom: false,
+        loopTop: false,
+        loopHorizontal: true,
+        continuousVertical: true,
+        normalScrollElements: '#element1, .element2',
+        scrollOverflow: false,
+        touchSensitivity: 15,
+        normalScrollElementTouchThreshold: 5,
+
+        //Accessibility
+        keyboardScrolling: true,
+        animateAnchor: true,
+        recordHistory: true,
+
+        //Design
+        controlArrows: true,
+        verticalCentered: true,
+        resize : false,
+        sectionsColor : ['#fff'],
+        paddingTop: '3em',
+        paddingBottom: '10px',
+        fixedElements: '#header, .footer',
+        responsiveWidth: 0,
+        responsiveHeight: 0,
+
+        //Custom selectors
+        sectionSelector: '.section',
+        slideSelector: '.slide',
+  });
+});
+
+    </script>
+  </body>
+</html>

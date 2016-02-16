@@ -1,0 +1,41 @@
+
+/*Menu*/
+#myMenu{
+  margin-left: 20%;
+  margin-right: 20%;
+  padding-left: 0px;
+}
+
+ul#myMenu li {
+  display: inline;
+  font-family: 'Abril Fatface', cursive;
+  font-size: 2em;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+ul#myMenu li a {
+  text-decoration: none;
+  color: black;
+  margin: 5px;
+}
+
+ul#myMenu li a:hover{
+  color: #b30000;
+}
+/*Sections*/
+#section1{
+  background-image: url("images/solar-system.jpg");
+  background-size: cover;
+  width: 100%;
+  height: auto;
+}
+/*Slides*/
+
+#slide1{
+  background-image: url("images/slide1.jpg");
+}
+
+.slide{
+  background-size: cover;
+}
