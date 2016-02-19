@@ -36,6 +36,10 @@ h1.layer-name{
   font-family: 'Lobster', cursive;
   font-size: 1em;
   text-align: left;
+  position: absolute;
+  top: 180px;
+  left: 30px;
+
 }
 #home-credit{
   color: black;
