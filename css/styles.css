@@ -1,7 +1,6 @@
 
 /*Menu*/
-#myMenu{
-  margin-left: 20%;
+/*  margin-left: 20%;
   margin-right: 20%;
   padding-left: 0px;
 }
@@ -22,20 +21,58 @@ ul#myMenu li a {
 
 ul#myMenu li a:hover{
   color: #b30000;
+}*/
+/*Type*/
+h1{
+  font-family: 'Lobster', cursive;
+  text-align: center;
 }
+h1.layer-name{
+  color: white;
+}
+
+.credit{
+  color: white;
+  font-family: 'Lobster', cursive;
+  font-size: 1em;
+  text-align: left;
+}
+#home-credit{
+  color: black;
+}
+
+
 /*Sections*/
 #section1{
-  background-image: url("../images/solar-system.jpg");
+  background-image: url("../images/earth-print.jpg");
   background-size: cover;
-  width: 100%;
-  height: auto;
 }
-/*Slides*/
 
-#slide1{
-  background-image: url("images/slide1.jpg");
+.section{
+    background-size: 100% auto;
+}
+
+/*Slides*/
+#slide1-crust{
+  background-image: url("../images/earth-crust-print.jpg");
+  background-size: cover;
+}
+
+#slide1-mantle{
+  background-image: url("../images/mantle-print.250jpg");
+  background-size: cover;
+}
+#slide1-outer-core{
+  background-image:url("../images/outer-core-print.jpg");
+  background-size: cover;
+}
+
+#slide1-inner-core{
+  background-image: url("../images/inner-core-print.jpg");
+  background-size: cover;
 }
 
 .slide{
-  background-size: cover;
+    background-size: 100% auto;
+    background-color: #85adad;
 }
