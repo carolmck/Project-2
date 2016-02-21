@@ -4,7 +4,7 @@ $('#fullpage').fullpage({
 //Navigation
   menu: "#myMenu",
   lockAnchors: false,
-  anchors:['Home','Crust', 'Mantle', 'Outer Core', 'Inner Core', 'Quiz'],
+  anchors:['Home','Crust', 'Mantle', 'Outer Core', 'Inner Core'],
   navigation: true,
   navigationPosition: 'right',
   showActiveTooltip: false,

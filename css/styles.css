@@ -6,17 +6,33 @@ h1{
 h1.layer-name{
   color: white;
 }
-h3#curve1{
-  position: absolute;
-  left:40%;
-  top: -200px;
-  font-size: 2.5em;
+h3{
+  font-family: 'Lobster', cursive;
+}
+.topLayer{
+  margin-bottom: 0;
+}
+.middleLayers{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.bottomLayer{
+  margin-top: 0px;
+}
+.content{
+  width: 50%;
+  margin: 0 auto;
 }
 
-.body-text{
+.layerVisual{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+/*.body-text{
   position: absolute;
   left: 400px;
-}
+}*/
 .credit{
   color: white;
   font-family: 'Lobster', cursive;
