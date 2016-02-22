@@ -12,6 +12,14 @@ h3{
 #crust1{
   margin-bottom: 10px;
 }
+#crust1, #crust2, #crust3, #crust4{
+  margin-top: 10px;
+}
+
+i.fa.fa-globe.fa-4x{
+  margin-bottom: 20px;
+}
+
 .topLayer{
   margin-bottom: 0;
 }
@@ -49,6 +57,9 @@ h3{
   color: black;
 }
 
+figure{
+  text-align: center;
+}
 
 /*Sections*/
 #section1{
