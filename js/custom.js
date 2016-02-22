@@ -52,3 +52,4 @@ $('#fullpage').fullpage({
 
 });
 var quiz = jQuery('#quiz').quiz('1O8Qyc9sBFfVRol0HnrHyc5XUNQlBWmHY966s78dVCpc');
+var quiz2 = jQuery('#quiz2').quiz('1mdrZNWw8ojPSMCKqCGrzgEM1cLb6hQ0PpsMJTE8Sg9o');
