@@ -29,6 +29,8 @@ html.fp-enabled,
     -webkit-box-sizing: border-box; /* Safari<=5 Android<=3 */
     -moz-box-sizing: border-box; /* <=28 */
     box-sizing: border-box;
+    padding-top: 0px !important;
+    padding-bottom: 0px !important;
 }
 .fp-slide {
     float: left;
@@ -81,12 +83,12 @@ html.fp-enabled,
 .fp-controlArrow.fp-prev {
     left: 15px;
     width: 0;
-    border-width: 38.5px 34px 38.5px 0;
+    border-width: 20px 18px 20px 0;
     border-color: transparent #fff transparent transparent;
 }
 .fp-controlArrow.fp-next {
     right: 15px;
-    border-width: 38.5px 0 38.5px 34px;
+    border-width: 20px 0 20px 18px;
     border-color: transparent transparent transparent #fff;
 }
 .fp-scrollable {
@@ -118,7 +120,7 @@ html.fp-enabled,
     opacity: 1;
 }
 .fp-slidesNav.bottom {
-    bottom: 17px;
+    bottom: 10px;
 }
 .fp-slidesNav.top {
     top: 17px;

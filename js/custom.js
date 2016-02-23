@@ -53,3 +53,5 @@ $('#fullpage').fullpage({
 });
 var quiz = jQuery('#quiz').quiz('1O8Qyc9sBFfVRol0HnrHyc5XUNQlBWmHY966s78dVCpc');
 var quiz2 = jQuery('#quiz2').quiz('1mdrZNWw8ojPSMCKqCGrzgEM1cLb6hQ0PpsMJTE8Sg9o');
+var quiz3 = jQuery('#quiz3').quiz('1MWbWYWJZVE7n6nozbO0y2h_bSxesigDfn-pkXni5tkk');
+var quiz4 = jQuery('#quiz4').quiz('1qQhYN0OVARhPKzbX6D7gdAlbP0OZIbARHMSsYXWS3Cw')

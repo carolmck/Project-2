@@ -30,7 +30,18 @@ i.fa.fa-globe.fa-4x{
 .bottomLayer{
   margin-top: 0px;
 }
+.content-main{
+  width: 80%;
+  height:90%;
+  margin: 0 auto;
+}
 .content{
+  width: 80%;
+  height: 60%;
+  margin: 0 auto;
+}
+
+.content-quiz{
   width: 80%;
   margin: 0 auto;
 }
@@ -42,6 +53,7 @@ i.fa.fa-globe.fa-4x{
 .bodyText{
   font-size: 1.5em;
   font-family:'Lato', sans-serif;
+
 }
 .credit{
   color: white;
@@ -57,10 +69,30 @@ i.fa.fa-globe.fa-4x{
   color: black;
 }
 
+.fact{
+  font-family: 'Lobster', cursive;
+}
+
+.emphasis{
+  font-style: italic;
+}
+
 figure{
   text-align: center;
 }
 
+figcaption{
+  text-align: center;
+}
+
+.source{
+  text-decoration: none;
+  color: #515151;
+}
+a:hover{
+  text-decoration: none;
+  color: white;
+}
 /*Sections*/
 #section1{
   background-image: url("../images/earth-print.jpg");
